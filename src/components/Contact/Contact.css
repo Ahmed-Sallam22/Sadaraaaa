@@ -1,0 +1,10 @@
+.sallam .flag-dropdown {
+  border: 1px solid #002d72 !important;
+}
+
+/* كمان لو حابب تخلي زرار العلم مظبوط أكتر */
+.sallam .flag-dropdown {
+  background-color: white;
+  border-right: 1px solid #002d72 !important;
+  height: 100%;
+}

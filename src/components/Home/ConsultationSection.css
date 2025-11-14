@@ -1,0 +1,36 @@
+.consultation-section {
+  position: relative;
+  background-image: url('../../assets/cons.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65vh;
+  margin: 5rem 0; /* مساوية لـ my-20 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; /* لضبط المحتوى داخل الهوامش */
+}
+
+/* طبقة التعتيم */
+.consultation-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.7); /* لون أزرق غامق مع شفافية */
+}
+
+/* ✅ تعديل الاستجابة لشاشات التابلت والموبايل */
+@media (max-width: 1024px) {
+  .consultation-section {
+    height: auto; /* خلي الطول يتكيف مع المحتوى */
+    flex-direction: column; /* يخلي العناصر فوق بعض */
+    padding: .5rem 1.5rem; /* تقليل الهوامش */
+  }
+}
+
+@media (max-width: 640px) {
+  .consultation-section {
+    padding: 2rem 1rem;
+    margin: 3rem 0;
+  }
+}

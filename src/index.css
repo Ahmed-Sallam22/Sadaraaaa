@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --brand-orange: #f7941d;
+  --brand-blue: #002d72;
+  --brand-black: #111111;
+}
+.bg-flip {
+  transform: scaleX(-1);
+}
+
+
+.react-tel-input .selected-flag {
+    outline: none;
+    position: relative;
+    width: 40px !important;
+    height: 99%;
+    padding: 0px 10px 0 10px !important;
+    border-radius: 3px 0 0 3px;
+}
+.react-tel-input .selected-flag .arrow {
+    display: none !important;
+
+}
+@keyframes slowPing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.custom-ping {
+  animation: slowPing 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

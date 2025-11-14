@@ -1,0 +1,47 @@
+[
+  {
+    "id": "investment",
+    "title": {
+      "en": "Investment in Saudi Arabia",
+      "ar": "مزايا الاستثمار في السعودية"
+    },
+    "content": {
+      "en": "The Saudi Investment Authority requires investors to obtain an investment license for foreign capital. Companies that obtain this license enjoy full ownership of the company and its profits in Saudi Arabia. The license includes the ability to own 100% of the company and engage in all licensed activities, in addition to tax exemption benefits and government support.",
+      "ar": "تفرض هيئة الاستثمار في السعودية على المستثمرين الحصول على ترخيص استثمار على رأس المال الأجنبي. بينما تتمتع الشركات الحاصلة على هذا الترخيص بكل مزايا التملك في السعودية، حيث يتضمن هذا الترخيص التملك الكامل للشركة وربحها ومزاولة جميع الأنشطة المرخصة، بجانب مزايا الإعفاء الضريبي والدعم الحكومي."
+    }
+  },
+  {
+    "id": "llc",
+    "title": {
+      "en": "Limited Liability Company (LLC)",
+      "ar": "تأسيس شركة ذات مسؤولية محدودة في السعودية"
+    },
+    "content": {
+      "en": "It is the most common form for entering into joint ventures with Saudi partners, established by one or more individuals. Each partner’s financial liability is limited to their share in the capital. There is no personal liability for the company's debts and obligations beyond the invested capital.\n\n Sadara experts are fully familiar with all systems and regulations for establishing companies in Saudi Arabia. Our qualified team handles all incorporation procedures and manages the legal affairs of the company.",
+      "ar": "هي الشكل الأكثر شيوعًا للدخول في مشاريع مشتركة مع شركاء سعوديين، يؤسسها شخص واحد أو أكثر. وتُعد مسؤولية كل شريك مستقلة عن الذمة المالية لكل شريك منهم، ولا يكون الشريك فيها مسؤولًا عن الديون والالتزامات إلا بقدر حصته في رأس المال. \n\n خبراء صدارة على دراية تامة بكافة الأنظمة والإجراءات لتأسيس الشركات في السعودية. فريقنا مؤهل للقيام بكافة إجراءات التأسيس وإدارة الشؤون القانونية للشركة."
+    }
+  },
+
+  {
+    "id": "business-visa",
+    "title": {
+      "en": "Business Visa in Saudi Arabia",
+      "ar": "تأشيرة الأعمال في السعودية"
+    },
+    "content": {
+      "en": "The business visa allows short visits for business affairs and meetings. It is valid for 90 days and can be renewed. A multiple-entry visa is available for 6 months or 12 months (non-renewable).",
+      "ar": "تسمح تأشيرة الأعمال بالقيام بزيارات قصيرة الأجل لشؤون العمل والاجتماعات. وهي تأشيرة دخول صالحة لمدة 90 يومًا، مع إمكانية تجديد دخول واحدة لمدة 30 يوماً (قابلة للتمديد). أو تمنح تأشيرات دخول متعددة لمدة 6 أشهر أو 12 شهرًا (غير قابلة للتمديد)."
+    }
+  },
+    {
+    "id": "commercial-agency",
+    "title": {
+      "en": "Commercial Agency in Saudi Arabia",
+      "ar": "الوكالة التجارية في السعودية"
+    },
+    "content": {
+      "en": "The Commercial Agencies Law, as issued by the Royal Decree and its executive regulations, stipulates that foreign companies can appoint a Saudi local agent within the framework of an agency governed by Saudi law. Sadara provides specialized services to complete agency registration procedures in Saudi Arabia.",
+      "ar": "ينص قانون الوكالات التجارية، كما صدر بالمرسوم الملكي ولائحته التنفيذية، على أنه يمكن للعلاقة بين الوكيل المحلي السعودي وصاحب الاستثمار الأجنبي. صدارة توفر خدمات وكالة تجارية متخصصة من أجل استكمال إجراءات تسجيل الوكالة في السعودية."
+    }
+  }
+]

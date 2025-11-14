@@ -1,0 +1,478 @@
+{
+  "companyFormation": "Mechanical maintenance services",
+  "trackingServices": "Services",
+  "MaintenanceServices": "Maintenance Services",
+  "investmentLicense": "Investment License",
+  "ourServices": "Our Services",
+  "blog": "Blog",
+  "faq": "FAQ",
+  "contactUs": "Contact Us",
+  "email": "Email",
+  "establishCompany": "Saudi Investment Authority",
+  "licenseRenewal": "Comprehensive services in Saudi Arabia",
+  "phone": "Phone",
+  "whatsapp": "WhatsApp",
+  "languageArabic": "Arabic",
+  "languageEnglish": "English",
+  "mainTitle": "Sadara For services and maintenance",
+  "mainDescription": "Providing support services to companies and factories and mechanical maintenance work",
+  "mainButton": "Get Free Consultation",
+  "footer": {
+    "companyName": "Sadara",
+    "aboutCompany": "Sadara Link was founded in 2019 to help entrepreneurs from different fields realize their dreams.",
+    "aboutCompanyTitle": "About the Company",
+    "investmentLicense": "Investment License",
+    "ourServices": "Our Services",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "contactUs": "Contact Us",
+    "servicesTitle": "Services",
+    "investmentMinistryServices": "Investment Ministry Services",
+    "commerceMinistryServices": "Commerce Ministry Services",
+    "zakatAuthorityServices": "Zakat Authority Services",
+    "laborMinistryServices": "Labor and Development Ministry Services",
+    "trackingServices": "Services",
+    "saudiArabia": "Saudi Arabia",
+    "address": "Office 304, Almas Tower, Olaya, Riyadh, Saudi Arabia. Postal Code 12213",
+    "getDirections": "Get Directions",
+    "rights": "All rights reserved.",
+    "careers": "Careers",
+    "privacyPolicy": "Privacy Policy",
+    "copyrightPolicy": "Copyright",
+    "disclaimer": "Disclaimer"
+  },
+  "googleReview": {
+    "excellent": "Excellent"
+  },
+
+  "services": {
+    "heading": "Expand your business in Saudi Arabia with Sadara ideal formation services",
+    "subheading": "Achieve leadership in the Kingdom with the most trusted partner",
+    "description": "We offer expert advisory services to help you legally establish your company inside Saudi Arabia."
+  },
+
+  "expand": {
+    "title": "Expand Your Horizons"
+  },
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Write your message here...",
+    "submit": "Submit",
+    "title": "Get a Free Consultation"
+  },
+  "home": "Home",
+
+  "reviews": [
+    {
+      "name": "Ahmed Asal",
+      "date": "July 5, 2023",
+      "text": "✌️ Great team and fast execution ✌️",
+      "rating": 5
+    },
+    {
+      "name": "Mona Ibrahim",
+      "date": "August 10, 2023",
+      "text": "Very professional in investment consultations 👏",
+      "rating": 5
+    },
+    {
+      "name": "Mohammed Khaled",
+      "date": "September 20, 2023",
+      "text": "Highly recommend them for top financial results 🔥",
+      "rating": 4
+    },
+    {
+      "name": "Sara Ahmed",
+      "date": "October 1, 2023",
+      "text": "Helped me set up my company professionally 🚀",
+      "rating": 5
+    },
+    {
+      "name": "Omar Samir",
+      "date": "November 15, 2023",
+      "text": "Excellent support and strong Saudi market knowledge 👌",
+      "rating": 5
+    }
+  ],
+  "contactTitle": "Get in touch with our team of experts\nand consultants at Sadara",
+  "contactDescription": "At Sadara, we provide you with all the support needed to establish your company and start your business and investment journey in Saudi Arabia quickly, efficiently, and at highly competitive prices. We also offer services to finalize and follow up on all transactions and procedures for businesses, whether already established or newly starting.",
+  "contactButton": "Start Today",
+  "faqs": {
+    "title": "Frequently Asked Questions About Company Formation in Saudi Arabia",
+    "q1": "What if I don't have a capital of 30 million Saudi Riyals?",
+    "a1": "There are alternative investment options, but you need to verify your situation with the General Investment Authority.",
+    "q2": "Can I conduct business activities across Saudi Arabia with an investment license?",
+    "a2": "Some activities require additional licenses depending on the type of business and geographic location. It’s recommended to review local regulations.",
+    "q3": "How can I establish a commercial company in Saudi Arabia?",
+    "a3": "You can establish a company by submitting official documents to the relevant authorities, obtaining approvals, and registering the company.",
+    "q4": "What is the legal structure in case of a partnership?",
+    "a4": "The partnership can be registered as a general partnership or a limited liability company depending on the partners' agreement and legal requirements.",
+    "q5": "Can I establish a new company in Saudi Arabia?",
+    "a5": "Yes, you can establish a new company provided you comply with local regulations and obtain the necessary licenses.",
+    "q6": "Can I obtain an industrial license in Saudi Arabia?",
+    "a6": "Yes, but you need to submit a business plan, obtain approvals from relevant authorities, and secure additional industry-specific licenses.",
+    "q7": "What are the steps to establish a factory in Saudi Arabia?",
+    "a7": "The steps include submitting a request to the Ministry of Industry, providing required documents, and obtaining environmental and commercial licenses.",
+    "q8": "Do I need a commercial office to register my company in Saudi Arabia?",
+    "a8": "Yes, a physical address and office are usually required to register the company and obtain a commercial registration.",
+    "q9": "What are the business activities prohibited for foreigners in Saudi Arabia?",
+    "a9": "Some activities like wholesale and retail distribution of certain goods and some professions are restricted to Saudi nationals only.",
+    "q10": "How long does it take to get approval from the General Investment Authority?",
+    "a10": "The process usually takes between two to four weeks depending on the completeness of documents and the type of activity.",
+    "q11": "What documents are required for investment authority approval?",
+    "a11": "Documents include incorporation papers, national ID, business plan, foreign commercial registration, and other documents depending on the business activity.",
+    "q12": "What is the cost of establishing a company in Saudi Arabia?",
+    "a12": "The cost depends on the type of activity and location and includes registration fees, licensing, and legal service fees.",
+    "q13": "How does the Investor Services Center assist when establishing a company in Saudi Arabia?",
+    "a13": "The center facilitates company registration, license issuance, and helps follow up with government departments.",
+    "q14": "How can I pay employee salaries?",
+    "a14": "You must open a business bank account in the company’s name and use the Wage Protection System approved by the government.",
+    "q15": "What is the annual operational cost for companies in Saudi Arabia?",
+    "a15": "Costs include rent, employee salaries, license renewals, government services, and other operational expenses."
+  },
+
+  "establish": {
+    "title": "Investment Ministry Services (MISA)",
+    "description": "Discover the importance of investment in Saudi Arabia and benefit from the facilities provided to investors, including attractive and incentivizing investment advantages for business setup and development.",
+    "button": "Start Today"
+  },
+  "licensesHeroTitle": "Investment and Commercial Licenses in Saudi Arabia",
+  "licensesHeroDescription": "Your gateway to rewarding investment opportunities",
+  "licensesHeroButton": "Start Today",
+  "investmentOverviewTitle": "An Overview of Investment in Saudi Arabia",
+  "investmentOverviewDescription": "Saudi Arabia is experiencing significant economic progress aimed at attracting global investments. With the kingdom's move to reduce dependence on oil, new growth opportunities are emerging across various non-oil sectors.\n\nThis expanding economic activity offers an unparalleled opportunity for investors. The Saudi government is working to attract foreign investment through a series of reforms designed to simplify procedures and create a more business-friendly environment. Obtaining licenses and business visas has become easier, making it smoother to establish a company in Saudi Arabia than ever before.",
+  "investmentOverviewButton": "Book a Free Consultation with Our Experts",
+  "licenseSection": {
+    "title": "Types of Investment Licenses in the Kingdom of Saudi Arabia",
+    "description": "Establishing a company in Saudi Arabia represents an important investment step. The Kingdom offers various options for commercial licenses, each with its own specific requirements and regulations. Therefore, it is essential to conduct prior research about the type of business activity you plan to engage in to make a suitable decision that aligns with your goals. It is always recommended to consult a specialized expert in company formation in Saudi Arabia to help you determine the most appropriate license type for your business activity."
+  },
+  "license": {
+    "commercial": "Commercial License",
+    "industrial": "Industrial License",
+    "agricultural": "Agricultural License",
+    "professionalPartner": "Professional License in Partnership with a Saudi Investor",
+    "laborAgency": "Labor Recruitment and Domestic Labor Services License",
+    "service": "Service License",
+    "realEstate": "Real Estate License",
+    "transport": "Transport License",
+    "technicalOffice": "Technical and Scientific Office License",
+    "mining": "Mining License",
+    "media": "Media License (Audio and Visual)",
+    "printingPublishing": "Printing and Publishing Activities License"
+  },
+  "licenseDocuments": {
+    "title": "Required Documents for Obtaining an Investment License in Saudi Arabia",
+    "subtitle": "Issuing an investment license requires only two documents. Here are the details:",
+    "point1": "The commercial registration of the establishment in the home country, authenticated by the Saudi embassy.",
+    "point2": "The financial statements for the last fiscal year, prepared by a globally recognized legal office and authenticated by the Saudi embassy.",
+    "note": "Additional documents might be required by other government entities depending on your business activity and the type of license."
+  },
+  "companyTypes": {
+    "title": "Types of Companies Covered by the Investment License",
+    "subtitle": "Based on the principle of fair and equal treatment, foreign investors enjoy the same rights and obligations as local investors when choosing the appropriate company type.",
+    "type1": "Limited Liability Company (LLC)",
+    "type2": "Single Shareholder Limited Liability Company",
+    "type3": "Joint Stock Company",
+    "type4": "Professional Partnership Company",
+    "type5": "Branch of a Foreign Company",
+    "type6": "Sole Proprietorship with a Saudi Partner",
+    "button": "Contact Us"
+  },
+  "misaSection": {
+    "title": "General Investment Authority in Saudi Arabia",
+    "paragraph1": "In 2000, the Saudi government launched the Foreign Investment Law. This law guarantees significant investment incentives for companies registered with the General Investment Authority in the Kingdom. Additionally, the Saudi government is committed to supporting foreign investors with the necessary investment procedures and approvals to establish a company in Saudi Arabia.",
+    "paragraph2": "The General Investment Authority/Ministry of Investment issues the foreign investor license, granting full ownership rights to foreign investors without the need for a local partner. You can operate anywhere in the Kingdom. Please note that some activities like employment, medical, and consulting are restricted. The General Investment Authority ensures an expedited investment process for foreign companies within 5 days of application submission."
+  },
+  "servicesSection": {
+    "title": "Company Establishment Services under the Saudi Investment Authority",
+    "description": "Our team of professionals will handle your matters with speed and high precision. We also handle follow-up tasks for administrative procedures with ministries, government entities, various public institutions, private sector companies, and any other work falling under follow-up duties.",
+    "reserveTradeName": "Reserve Trade Name",
+    "extractCommercialRegisterCompany": "Extract Commercial Register for Companies",
+    "extractCommercialRegisterEstablishment": "Extract Commercial Register for Establishments",
+    "registerBranchCompany": "Register a Branch for Company",
+    "registerBranchEstablishment": "Register a Branch for Establishment",
+    "extractCommercialRegisterForeignBranch": "Extract Commercial Register for Foreign Company Branch",
+    "renewCommercialRegisterCompany": "Renew Commercial Register for Companies",
+    "renewCommercialRegisterEstablishment": "Renew Commercial Register for Establishments",
+    "studyNewCompanyArticles": "Study the New Company’s Articles",
+    "amendCommercialRegisterEstablishment": "Amend Commercial Register for Establishment",
+    "transferEstablishmentToCompany": "Convert Establishment Register to Company Register"
+  },
+  "ksaHeroSubtitle": "Home » Our Services in Saudi Arabia",
+  "ksaHeroTitle": "Company Formation in the Kingdom of Saudi Arabia",
+  "ksaHeroDescription": "Tailored solutions to match your entrepreneurial ambitions",
+  "ksaHeroButton": "Contact Us",
+  "ksaServicesTitle": "Our Services in Saudi Arabia",
+  "ksaServicesIntro": "Sadara is your trusted gateway to achieving your business ambitions in the Kingdom of Saudi Arabia. Our expert team guides you every step of the way to ensure a strong and compliant company setup that aligns with your vision.",
+  "ksaMainland": "Company Formation in Mainland Areas",
+  "ksaFreezone": "Establishment of Factories and Foreign Companies",
+  "ksaFreezone2": "Company Formation in Cities within the Kingdom of Saudi Arabia",
+  "ksaOffshore": "Branch Setup for Foreign Companies",
+  "ksaServicesDetails1": "Sadara goes beyond just setting up your business. We provide a full suite of services—from planning and registration to operations—ensuring a smooth and efficient journey toward your goals.",
+  "ksaServicesDetails2": "Rely on Sadara’s expertise to turn your vision into reality. We help you navigate promising sectors in Saudi Arabia and design the optimal company structure to support long-term success.",
+  "ksaServicesCTA": "Get It Now",
+  "accountingHeroSubtitle": "HOME » Comprehensive services in KSA",
+  "accountingHeroTitle": "Comprehensive services in the Kingdom of Saudi Arabia",
+  "accountingHeroButton": "Get a Free Consultation",
+  "accountingContent": {
+    "title": "Comprehensive services in the Kingdom of Saudi Arabia",
+    "paragraph1": "Effective financial management is one of the key pillars of growth and prosperity for companies in Saudi Arabia. Strong accounting processes serve as a metric to assess financial strength and the performance of owners, investors, and managers. Transaction records provided by accounting help companies identify, plan, and communicate financial data internally or externally. At Sadara, we take pride in being a leading consultancy for company formation in the Kingdom. Our expert team is committed to delivering a full range of Comprehensive services in compliance with local regulations. Sadara's experts have a proven track record in supporting companies to enhance the efficiency and effectiveness of their accounting and auditing operations.",
+    "subtitle": "Why are Accounting and Auditing Services Important for Companies in Saudi Arabia?",
+    "paragraph2": "Saudi Arabia has become a popular destination for entrepreneurial expansion and company formation. No matter the field or sector your company operates in, effective financial management and high-quality accounting operations are key requirements for growth.",
+    "benefits": [
+      "Accounting is essential for evaluating a company's overall financial performance.",
+      "Helps in understanding budgetary requirements and managing cash flow.",
+      "Ensures legal compliance with taxes and dues.",
+      "Supports future decision-making based on historical financial records."
+    ]
+  },
+  "accountingServicesGrid": {
+    "title": "Comprehensive services in the Kingdom of Saudi Arabia",
+    "description": "Our services aim to support investors in all aspects of financial company formation, including:",
+    "cards": [
+      {
+        "title": "A. Financial Consulting:",
+        "points": [
+          "Analyze and understand the financial status of the company.",
+          "Develop and analyze financial strategy.",
+          "Prepare and audit financial statements."
+        ]
+      },
+      {
+        "title": "B. Accounting & Bookkeeping Services (daily, weekly, monthly, annually):",
+        "points": [
+          "Review financial transaction documents like invoices, receipts, and vouchers.",
+          "Accurately record transactions while preserving original documents.",
+          "Prepare journal entries for financial transactions.",
+          "Regularly update financial data using an ERP or manual system."
+        ]
+      },
+      {
+        "title": "C. Zakat & VAT Accounting and Reporting:",
+        "points": [
+          "Review zakat and VAT-related transactions regularly (daily, monthly, quarterly).",
+          "Prepare zakat and VAT reports according to official regulations.",
+          "Submit zakat and VAT reports electronically through the government portal."
+        ]
+      },
+      {
+        "title": "D. General Ledger & Final Budget:",
+        "points": [
+          "Review and match general ledger accounts.",
+          "Make necessary adjustments to trial balance.",
+          "Prepare a full set of financial statements (income statement, balance sheet, owner’s equity).",
+          "Close accounts at the end of the fiscal year."
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "paragraphs": [
+      "All content and information provided on this website are published by Sadara and are intended for informational purposes only. The information provided does not constitute legal, professional, or business advice.",
+      "While Sadara ensures that all information is up to date and accurate, we do not make any guarantees or confirmations in this regard. We are not responsible for any inaccurate information or errors sent to us, nor for any direct or indirect damage resulting from reliance on such information.",
+      "There may be technical errors or inaccuracies in the information presented on the site. While we strive to update the content regularly, we are not responsible for updating information at all times or for any failure to do so.",
+      "Sadara’s website may contain links to external websites. Please note that such websites are outside our control and scope of responsibility.",
+      "These external links are provided solely for convenience. Sadara bears no responsibility for any third-party practices or policies of the linked websites."
+    ]
+  },
+  "copyright": {
+    "title": "Copyright",
+    "paragraphs": [
+      "All content on this site is the property of Sadara. You are not permitted under any circumstances to reproduce, republish, copy, or reuse it as your own, whether for commercial or non-commercial purposes, in any form or method. This includes, but is not limited to, recording or copying without prior permission from Sadara.",
+      "Copyright includes all text, images, videos, graphics, sounds, icons, presentations, shapes, and logos. Unauthorized use of any of our content is subject to copyright and trademark laws.",
+      "However, you may still mention Sadara and its services with a link that directs the audience to our website. You are responsible for ensuring that any content or data retrieved from our site is free from any viruses or harmful software. Sadara assumes no responsibility for such actions.",
+      "As a user, you must comply with intellectual property laws and refrain from any actions that violate these regulations. Unless explicitly authorized, accessing or attempting to access information about other users on the site is prohibited.",
+      "For any questions or inquiries, please contact us through the <a class='text-blue-600 font-semibold underline' href='/contact'>Contact Us</a> page."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "Copyright",
+        "paragraphs": [
+          "All content on this site is the property of Sadara. You may not reproduce, republish, or use it for any commercial or non-commercial purpose without prior written consent from Sadara.",
+          "This includes all text, images, videos, graphics, audio, icons, presentations, and logos. Unauthorized use is subject to copyright and trademark laws."
+        ]
+      },
+      {
+        "heading": "Information We Collect",
+        "paragraphs": [
+          "To ensure your privacy, we only collect the following information:"
+        ],
+        "list": [
+          "Information you provide through email, calls, or contact forms.",
+          "Information collected via cookies each time you visit our website."
+        ]
+      },
+      {
+        "heading": "How We Use Your Information",
+        "paragraphs": [
+          "Sadara collects personal data based on the services you request, such as subscription forms or contacting us through our contact page. This may include your name, email address, phone number, and job title.",
+          "We use the collected information to serve you and fulfill your requests. We may also use it to send promotional content relevant to you. You can unsubscribe at any time.",
+          "It is not mandatory to provide your personal data, but refusal may limit our ability to serve you.",
+          "We use your information to:"
+        ],
+        "list": [
+          "Customize content based on your request.",
+          "Respond to your inquiries or provide services upon your request.",
+          "Enhance your user experience.",
+          "Ensure accessibility to what you need.",
+          "Analyze usage and evaluate performance.",
+          "Protect our site from fraud and illegal activity.",
+          "Comply with legal requirements."
+        ]
+      },
+      {
+        "heading": "",
+        "paragraphs": [
+          "We do not share your data with any external party without your permission. You may also limit sharing of personal information through your settings.",
+          "Sadara values the confidentiality of your data and is committed to protecting it unless required by law to disclose it."
+        ]
+      }
+    ]
+  },
+  "joinTeam": {
+    "title": "Join Our Amazing Team",
+    "paragraphs": [
+      "Whether you're a recent graduate or an experienced professional, we believe every member of our team can make a big impact and contribute to our success.",
+      "If you're passionate and result-driven, and looking for a challenging and rewarding position, we invite you to join us at Sadara.",
+      "Apply now to be part of a company striving for excellence, growth, and innovation."
+    ],
+    "cta": "Join a team that values your best effort"
+  },
+  "tracking": {
+    "title": "Tracking Services in Saudi Arabia",
+    "date": "November 28, 2021",
+    "section1Title": "Tracking Services",
+    "paragraph1": "At Sadara, we have experienced representatives specializing in government relations and public affairs to provide company formation services in Saudi Arabia.",
+    "paragraph2": "We handle government follow-up services with ministries, authorities, embassies, and companies, including company formation, partner entry and exit, partnership contract modifications, and ownership transfers.",
+    "paragraph3": "We also handle corporate restructuring, mergers, business registration, employment contracts, issuance and receipt of professional visas, labor supply for private and public sectors, bankruptcy and liquidation processes, VIP services, reviews, and government follow-ups for clients inside and outside Saudi Arabia.",
+    "section1ListTitle": "We offer many other services, including:",
+    "section1List": [
+      "Legal consultation to obtain the appropriate license for the main office activity",
+      "Submitting preliminary approval requests for foreign licenses from the Saudi Investment Authority (SAGIA / MISA)",
+      "Registering the national address to complete official records",
+      "Registering the company with the Ministry of Commerce and Chambers of Commerce",
+      "Linking the company with all other government entities (MOL, GOSI, VAT, ZAKI)",
+      "Reviewing the Ministry of Investment and Ministry of Commerce",
+      "Issuing a commercial license",
+      "Industrial license",
+      "HR review and opening a labor office file",
+      "Issuing professional and commercial visas",
+      "Guarantee service",
+      "Residence renewal",
+      "Opening social insurance files",
+      "Adding employees",
+      "Opening Zakat and tax file and extracting tax number",
+      "Issuing municipal, industrial, and SFDA permits",
+      "Civil defense license",
+      "Registering contracts, service regulations and policies",
+      "Trademark registration",
+      "Contract authentication by Ministry of Foreign Affairs and embassies"
+    ],
+    "section2Title": "Tracking Services in Saudi Arabia",
+    "section2Paragraphs": [
+      "We offer all new government and commercial services for all Arab and foreign companies.",
+      "The importance of a tracking agent lies in handling all paperwork and admin tasks related to both public and private sector entities. This includes visa processing, residency issuance, and setting travel dates, with a valid passport required for entry/exit.",
+      "To support our clients, the Sadara team provides all e-government services at reasonable prices.",
+      "Sadara Company, located at Office 28, Mezzanine Floor, Al-Qamar Building, King Fahd Road, Saudi Arabia, is one of the top firms providing tracking services and company formation in the Kingdom."
+    ]
+  },
+  "commerceHeroTitle": "Ministry of Commerce and Investment Services\nin the Kingdom of Saudi Arabia",
+  "commerceHeroSubtitle": "The Ministry of Commerce and Investment in Saudi Arabia is responsible for issuing licenses to Gulf companies.",
+  "moci": {
+    "title": "What are the services provided by Sadara through the Ministry of Commerce and Investment?",
+    "description1": "At Sadara, we are committed to providing full support to companies seeking a license from the Ministry of Commerce and Investment in Saudi Arabia. This license is essential to begin forming a Saudi company.",
+    "description2": "Our services include guidance on the application process, preparation of required documents, and ongoing support. Sadara experts have in-depth knowledge of the local rules and procedures to secure your commercial license.",
+    "readMore": "Read about: Understanding Moqeb Services in Saudi Arabia",
+    "servicesTitle": "Services provided by Sadara through the Ministry of Commerce and Investment:",
+    "servicesList": [
+      "Company commercial registration (issuance, modification, transfer, renewal)",
+      "Investment license issuance",
+      "Company formation and contract issuance",
+      "Trademark registration services",
+      "Post-establishment representation services"
+    ],
+    "cta": "Start Today",
+    "imageAlt": "Ministry of Commerce and Investment",
+    "bottomTitle": "Sadara: Your ideal partner on your entrepreneurial journey in Saudi Arabia",
+    "bottomText": "Our specialized team is dedicated to guiding you through company formation procedures, simplifying document acquisition, and offering continuous support during your expansion journey. With our experts well-versed in required regulations and processes, we ensure smooth and efficient handling of your transactions with the Ministry of Commerce and Investment."
+  },
+  "mol": {
+    "servicesList": [
+      "Issuance/Renewal of Work Permits",
+      "Issuance and Cancellation of Visas",
+      "Instant Calculation Services",
+      "Reassignment Visa",
+      "Electronic Authorization",
+      "Visa Cancellation",
+      "Amendment of Work Contracts",
+      "Replacement Visas for Final Exit – Compensation Visas",
+      "Paying Labor Law Violations",
+      "Nitaqat and Instant Calculation",
+      "Saudization Certificate Issuance",
+      "Registration in the Electronic Portal",
+      "Approval of Labor Service Leasing Contracts",
+      "Friendly Settlement Service for Labor Disputes",
+      "Enterprise Evaluation in Nitaqat",
+      "Absence Report Submission Service",
+      "Service Transfer Without Employer Consent",
+      "Conditional Temporary Payment for Government Contracts",
+      "Establishment File Opening",
+      "Unified Number Expatriate Services",
+      "Dependent Transfer to Establishment"
+    ]
+  },
+  
+  "mech": {
+    "hero": {
+      "title": "Sadaraa For Mechanical Maintenance",
+      "subtitle": "At Sadaraa Business Services, we provide comprehensive mechanical services and maintenance in line with the highest quality and safety standards, meeting the needs of industrial, commercial, and residential projects alike. Our specialized team of qualified engineers and technicians executes mechanical installation and maintenance works with high professionalism and efficiency, ensuring continuity of operations and minimizing downtime.",
+      "secondary": "Contact Us"
+    },
+    "intro": {
+      "title": "Sadaraa For Mechanical Maintenance",
+      "body": "We offer integrated solutions for the maintenance of turbines and industrial equipment. We work according to a clear schedule, strictly adhering to safety procedures, and relying on modern tools and technologies to ensure efficient execution. Experts in turbine and industrial equipment maintenance, delivering unmatched quality and expertise."
+    },
+    "servicesTitle": "Our Services in This Field",
+    "services": [
+      {
+        "title": "Mechanical Installations",
+        "desc": "Inspection and maintenance of equipment and mechanical systems to ensure optimal performance and reduce breakdowns.",
+        "img": "/assets/serivce-2.jpg"
+      },
+      {
+        "title": "Preventive and Periodic Maintenance",
+        "desc": "Inspection and maintenance of equipment and mechanical systems to ensure optimal performance and reduce breakdowns.",
+        "img": "/assets/serivce-3.jpg"
+      },
+      {
+        "title": "Turbine Maintenance",
+        "desc": "Gas and steam turbine services: bearings, shafts, chimney cleaning, lubrication, and system upgrades.",
+        "img": "/assets/serivce-4.webp"
+      }
+    ],
+    "whyTitle": "Why Choose Sadaraa?",
+    "whys": [
+      "Proven industrial expertise with a team of specialized engineers and technicians.",
+      "Efficient execution that minimizes downtime and maximizes operational continuity.",
+      "Strict adherence to safety procedures.",
+      "Comprehensive reports and recommendations for preventive maintenance."
+    ],
+    "stepsTitle": "Our Process",
+    "steps": [
+      "Contact and identify client needs",
+      "Site visit and condition assessment",
+      "Provide a detailed technical and engineering proposal",
+      "Execute the work according to a clear schedule",
+      "Project handover with a comprehensive report and preventive maintenance recommendations"
+    ],
+    "ctaBottom": "Get Started Now"
+  }
+
+}
