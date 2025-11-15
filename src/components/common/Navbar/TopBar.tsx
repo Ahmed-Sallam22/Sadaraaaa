@@ -29,7 +29,7 @@ const Topbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-[#002d72] text-white text-sm py-2 px-4">
+    <div className="bg-[#5B2C8E] text-white text-sm py-2 px-4">
       <div className="max-w-6xl mx-auto flex justify-between items-center relative">
         {/* Language Selector */}
         <div
@@ -45,10 +45,10 @@ const Topbar = () => {
 
           {/* Dropdown */}
           {open && (
-            <div className="absolute top-full right-0 flex flex-col bg-white text-[#002d72] shadow-lg rounded-md py-2 w-24 text-center z-10">
+            <div className="absolute top-full right-0 flex flex-col bg-white text-[#5B2C8E] shadow-lg rounded-md py-2 w-24 text-center z-10">
               <div
                 onClick={toggleLanguage}
-                className="px-4 py-2 hover:bg-[#EBF9FF] cursor-pointer"
+                className="px-4 py-2 hover:bg-[#F8F9FA] cursor-pointer"
               >
                 {i18n.language === "ar" ? "English" : "العربية"}
               </div>
@@ -80,12 +80,12 @@ const Topbar = () => {
 
           {/* Email */}
           <a
-            href="mailto:info@sadarabusiness.com"
+            href="mailto:info@rapbuss.com.com"
             target="_blank"
             className="flex items-center gap-2"
           >
             <FaEnvelope size={18} />
-            <span className="hidden md:inline">info@sadarabusiness.com</span>
+            <span className="hidden md:inline">info@rapbuss.com.com</span>
           </a>
         </div>
       </div>

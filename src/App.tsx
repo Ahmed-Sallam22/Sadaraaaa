@@ -20,6 +20,7 @@ import Comment from "./pages/Comment/Comment";
 import MinistryInvestment from "./pages/MinistryInvestment/MinistryInvestment";
 import MinistryDevelopment from "./pages/MinistryDevelopment/MinistryDevelopment";
 import MechanicalServicesPage from "./components/MechanicalServices/MechanicalServicesPage";
+import LogisticsServices from "./pages/LogisticsServices/LogisticsServices";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,7 @@ const router = createBrowserRouter([
       { path: "establish-company", element: <EstablishCompany /> },
       { path: "Maintenance-Services", element: <MechanicalServicesPage /> },
       { path: "licenses-and-investment", element: <LicensesInvestment /> },
+      { path: "logistics-services", element: <LogisticsServices /> },
     ],
   },
 ]);

@@ -8,9 +8,9 @@ const DisclaimerPage = () => {
 
   return (
     <>
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-[#F8F9FA]">
         <div className="max-w-7xl mx-auto ">
-          <h2 className="text-3xl font-bold  text-[#002d72]">
+          <h2 className="text-3xl font-bold  text-[#5B2C8E]">
             {t("disclaimer.title")}
           </h2>
         </div>
@@ -19,7 +19,7 @@ const DisclaimerPage = () => {
         {paragraphs.map((para, index) => (
           <p
             key={index}
-            className="text-gray-700 max-w-7xl mx-auto text-lg leading-loose "
+            className="text-[#2E2E2E] max-w-7xl mx-auto text-lg leading-loose "
           >
             {para}
           </p>

@@ -30,7 +30,7 @@ const Main = ({ scrollToForm }: { scrollToForm: () => void }) => {
           </p>
           <button
             onClick={scrollToForm} // اضغط يروح للنموذج
-            className="bg-[#f7941d] hover:bg-[#f7951dce] text-white font-bold py-3 px-6 w-[20%] rounded-full transition-all duration-300"
+            className="bg-[#5B2C8E] hover:bg-[#4A1E75] text-white font-bold py-3 px-6 w-[20%] rounded-full transition-all duration-300"
           >
             {t("contactButton")}
           </button>

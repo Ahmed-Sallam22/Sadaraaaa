@@ -67,7 +67,7 @@ const ContactForm = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#f7941d] mb-8">
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#57C4B3] mb-8">
           {isArabic ? "تواصل معنا" : "Contact Us"}
         </h2>
 
@@ -81,7 +81,7 @@ const ContactForm = () => {
             value={formData.firstName}
             placeholder={isArabic ? "الاسم الأول" : "First Name"}
             onChange={handleChange}
-            className="border border-[#002d72] rounded px-4 py-3 focus:outline-none"
+            className="border border-[#5B2C8E] rounded px-4 py-3 focus:outline-none"
             required
           />
           <input
@@ -90,7 +90,7 @@ const ContactForm = () => {
             value={formData.lastName}
             placeholder={isArabic ? "اسم العائلة" : "Last Name"}
             onChange={handleChange}
-            className="border border-[#002d72] rounded px-4 py-3 focus:outline-none"
+            className="border border-[#5B2C8E] rounded px-4 py-3 focus:outline-none"
             required
           />
           <input
@@ -99,7 +99,7 @@ const ContactForm = () => {
             value={formData.email}
             placeholder={isArabic ? "معرف البريد الإلكتروني" : "Email Address"}
             onChange={handleChange}
-            className="border border-[#002d72] rounded px-4 py-3 focus:outline-none md:col-span-2"
+            className="border border-[#5B2C8E] rounded px-4 py-3 focus:outline-none md:col-span-2"
             required
           />
           <div className="md:col-span-2">
@@ -109,8 +109,8 @@ const ContactForm = () => {
               onChange={handlePhoneChange}
               inputProps={{ name: "phone", required: true }}
               containerClass="!w-full !flex"
-              inputClass="!w-full !h-12 !p-3 !text-black !rounded-md !border !border-[#002d72]"
-              buttonClass="!bg-white !border-r !border-[#002d72]"
+              inputClass="!w-full !h-12 !p-3 !text-black !rounded-md !border !border-[#5B2C8E]"
+              buttonClass="!bg-white !border-r !border-[#5B2C8E]"
               dropdownClass="!text-black"
               placeholder={t("form.phone")}
             />
@@ -122,14 +122,14 @@ const ContactForm = () => {
               isArabic ? "اكتب رسالتك هنا..." : "Write your message..."
             }
             onChange={handleChange}
-            className="border border-[#002d72] rounded px-4 py-3 focus:outline-none md:col-span-2 h-32 resize-none"
+            className="border border-[#5B2C8E] rounded px-4 py-3 focus:outline-none md:col-span-2 h-32 resize-none"
             required
           ></textarea>
 
           <button
             type="submit"
             disabled={isSending}
-            className={`flex justify-center items-center gap-2 bg-[#f7941d] hover:bg-[#f7951de2] text-white font-bold py-3 px-6 rounded w-full md:col-span-2 transition-all duration-300 ${
+            className={`flex justify-center items-center gap-2 bg-[#5B2C8E] hover:bg-[#f7951de2] text-white font-bold py-3 px-6 rounded w-full md:col-span-2 transition-all duration-300 ${
               isSending ? "opacity-70 cursor-not-allowed" : ""
             }`}
           >

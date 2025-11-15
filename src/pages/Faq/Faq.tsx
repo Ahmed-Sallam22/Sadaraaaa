@@ -30,9 +30,9 @@ const FAQSection = () => {
 
   return (
     <>
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-[#F8F9FA]">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-10 text-[#002d72]">
+          <h2 className="text-3xl font-bold text-center mb-10 text-[#5B2C8E]">
             {t("faqs.title")}
           </h2>
         </div>
@@ -42,7 +42,7 @@ const FAQSection = () => {
           <div key={index} className="border border-gray-200">
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full flex items-center p-4 text-right text-[#002d72] font-semibold focus:outline-none transition-colors duration-300 hover:bg-gray-100"
+              className="w-full flex items-center p-4 text-right text-[#5B2C8E] font-semibold focus:outline-none transition-colors duration-300 hover:bg-[#F8F9FA]"
             >
               <span className="ml-2 text-xl">
                 {openIndex === index ? "–" : "+"}
@@ -58,7 +58,7 @@ const FAQSection = () => {
                   animate={{ height: "auto", opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.4, ease: "easeInOut" }}
-                  className="overflow-hidden text-gray-600 text-sm bg-gray-50"
+                  className="overflow-hidden text-[#2E2E2E] text-sm bg-gray-50"
                 >
                   <div className="p-4 text-[15px]">{t(faq.answerKey)}</div>
                 </motion.div>

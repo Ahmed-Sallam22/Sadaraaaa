@@ -176,16 +176,16 @@ export const useBlogStore = create<BlogState>((set, get) => ({
           /([\s?|،-]?)(www.businesslink.sa)([\s?|،-]?)/gi;
 
         updatedTitle = updatedTitle
-          .replace(/بيزنس لينك/gi, "صدارة")
+          .replace(/بيزنس لينك/gi, "رابتشر للاعمال")
           .replace(uaeRegex, " السعودية ");
 
         updatedContent = originalContent
-          .replace(/بيزنس لينك/gi, "صدارة")
+          .replace(/بيزنس لينك/gi, "رابتشر للاعمال")
           .replace(uaeRegex, " السعودية ")
-          .replace(uaeRegex2, " info@sadarabusiness.com ")
+          .replace(uaeRegex2, " info@rapbuss.com.com ")
           .replace(uaeRegex3, " 97143215227 ")
-          .replace(uaeRegex4, " https://sadarabusiness.com ")
-          .replace(uaeRegex5, " https://sadarabusiness.com ");
+          .replace(uaeRegex4, " https://rapbuss.com.com ")
+          .replace(uaeRegex5, " https://rapbuss.com.com ");
         return {
           ...post,
           title: {

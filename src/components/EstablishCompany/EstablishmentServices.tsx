@@ -20,10 +20,10 @@ const EstablishmentServices = () => {
   return (
     <section className="bg-gray-50 py-16">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#003462] mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#5B2C8E] mb-6">
           {t("servicesSection.title")}
         </h2>
-        <p className="text-gray-600 text-lg mb-12 leading-relaxed">
+        <p className="text-[#2E2E2E] text-lg mb-12 leading-relaxed">
           {t("servicesSection.description")}
         </p>
 
@@ -31,7 +31,7 @@ const EstablishmentServices = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-md text-[#003462] font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
+              className="bg-white p-6 rounded-lg shadow-md text-[#5B2C8E] font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               {service}
             </div>

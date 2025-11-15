@@ -16,7 +16,7 @@ const AccountingHero = ({ scrollToForm }: { scrollToForm: () => void }) => {
       }}
     >
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-[#001a3c]/80 z-0"></div>
+      <div className="absolute inset-0 bg-[#5B2C8E]/80 z-0"></div>
 
       <div className="relative mx-auto flex flex-col items-start px-6 "
         style={{
@@ -32,7 +32,7 @@ const AccountingHero = ({ scrollToForm }: { scrollToForm: () => void }) => {
           </h2>
           <button
             onClick={scrollToForm}
-            className="bg-[#f7941d] hover:bg-[#f7951dce] text-white font-bold py-3 px-6 rounded-xl transition-all duration-300"
+            className="bg-[#57C4B3] hover:bg-[#4A1E75] text-white font-bold py-3 px-6 rounded-xl transition-all duration-300"
           >
             {t("accountingHeroButton")}
           </button>

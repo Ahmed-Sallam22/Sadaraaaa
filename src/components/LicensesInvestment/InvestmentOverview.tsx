@@ -9,15 +9,15 @@ const InvestmentOverview = ({ scrollToForm }: { scrollToForm: () => void }) => {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center gap-10 px-6">
         {/* النص */}
         <div className="w-full lg:w-1/2 text-center lg:text-start">
-          <h2 className="text-3xl font-bold text-[#003462] mb-4 leading-snug">
+          <h2 className="text-3xl font-bold text-[#5B2C8E] mb-4 leading-snug">
             {t("investmentOverviewTitle")}
           </h2>
-          <p className="text-gray-700 text-lg leading-loose whitespace-pre-line mb-6">
+          <p className="text-[#2E2E2E] text-lg leading-loose whitespace-pre-line mb-6">
             {t("investmentOverviewDescription")}
           </p>
           <button
             onClick={scrollToForm}
-            className="bg-[#f7941d] hover:bg-[#f7951dce] text-white font-bold py-3 px-8 rounded-full transition-all duration-300"
+            className="bg-[#5B2C8E] hover:bg-[#4A1E75] text-white font-bold py-3 px-8 rounded-full transition-all duration-300"
           >
             {t("investmentOverviewButton")}
           </button>

@@ -15,7 +15,7 @@ const Main = ({ scrollToForm }: { scrollToForm: () => void }) => {
         transform: isEnglish ? "scaleX(-1)" : "none", // فقط الخلفية تتقلب
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-l from-[#002d72]  z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-l from-[#5B2C8E]  z-0"></div>
 
       <div
         className=" px-8 flex flex-col md:flex-row items-center justify-between h-full relative z-10"
@@ -33,13 +33,13 @@ const Main = ({ scrollToForm }: { scrollToForm: () => void }) => {
           </p>
           <button
             onClick={scrollToForm}
-            className="bg-[#f7941d] hover:bg-[#f7951dce] text-white font-bold py-3 px-6 w-[30%] rounded-xl transition-all duration-300"
+            className="bg-[#5B2C8E] hover:bg-[#4A1E75] text-white font-bold py-3 px-6 w-[30%] rounded-xl transition-all duration-300"
           >
             {t("ksaHeroButton")}
           </button>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#f7941d]"></div>
+      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#5B2C8E]"></div>
     </section>
   );
 };

@@ -16,7 +16,7 @@ const Comment = () => {
             <div className="  p-6 bg-gray-200 rounded-xl shadow-sm space-y-8">
               {/* المدونة */}
               <div>
-                <h3 className="text-xl font-bold text-[#002d72] mb-4">
+                <h3 className="text-xl font-bold text-[#5B2C8E] mb-4">
                   {isArabic ? "المدونة" : "Blog"}
                 </h3>
                 <div className="space-y-4">
@@ -27,7 +27,7 @@ const Comment = () => {
                       className="flex items-center justify-between gap-4 hover:opacity-80"
                     >
                       <h4
-                        className="text-sm text-[#002d72] font-semibold line-clamp-2"
+                        className="text-sm text-[#5B2C8E] font-semibold line-clamp-2"
                         dangerouslySetInnerHTML={{
                           __html: recentPost.title.rendered,
                         }}
@@ -49,7 +49,7 @@ const Comment = () => {
               </div>
             </div>
             <div className="sticky top-2 p-6 mt-10 bg-gray-200 rounded-xl shadow-sm space-y-6">
-              <h3 className="text-2xl font-bold text-[#002d72] text-center">
+              <h3 className="text-2xl font-bold text-[#5B2C8E] text-center">
                 {isArabic ? "تواصل معنا" : "Contact Us"}
               </h3>
 
@@ -102,20 +102,20 @@ const Comment = () => {
 
           {/* Main content - 2/3 */}
           <div className="order-2 lg:order-1 lg:col-span-2">
-            <h1 className="text-3xl font-bold text-[#00246E]">
+            <h1 className="text-3xl font-bold text-[#5B2C8E]">
               {t("tracking.title")}
             </h1>
             <p className="text-sm text-gray-500">{t("tracking.date")}</p>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-bold text-[#00246E]">
+              <h2 className="text-2xl font-bold text-[#5B2C8E]">
                 {t("tracking.section1Title")}
               </h2>
               <p>{t("tracking.paragraph1")}</p>
               <p>{t("tracking.paragraph2")}</p>
               <p>{t("tracking.paragraph3")}</p>
 
-              <h3 className="font-bold text-lg text-[#00246E]">
+              <h3 className="font-bold text-lg text-[#5B2C8E]">
                 {t("tracking.section1ListTitle")}
               </h3>
               <ul className="list-disc pl-6 space-y-1">
@@ -130,7 +130,7 @@ const Comment = () => {
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-bold text-[#00246E]">
+              <h2 className="text-2xl font-bold text-[#5B2C8E]">
                 {t("tracking.section2Title")}
               </h2>
               {(
@@ -144,7 +144,7 @@ const Comment = () => {
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-16">
-          <h2 className="text-2xl font-bold text-center text-[#002d72] mb-8">
+          <h2 className="text-2xl font-bold text-center text-[#5B2C8E] mb-8">
             {isArabic ? "مواضيع ذات صلة" : "Related Articles"}
           </h2>
 
@@ -167,7 +167,7 @@ const Comment = () => {
                 )}
                 <div className="p-4">
                   <h3
-                    className="text-[#002d72] font-semibold text-lg mb-2 line-clamp-2"
+                    className="text-[#5B2C8E] font-semibold text-lg mb-2 line-clamp-2"
                     dangerouslySetInnerHTML={{
                       __html: relatedPost.title.rendered,
                     }}

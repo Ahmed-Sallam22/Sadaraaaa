@@ -57,7 +57,7 @@ const ConsultationSection = () => {
   return (
     <section className="consultation-section relative   flex items-center justify-center bg-cover bg-center">
       {/* طبقة شفافة فوق الخلفية */}
-      <div className="absolute inset-0 bg-[#003462] opacity-60"></div>
+      <div className="absolute inset-0 bg-[#5B2C8E] opacity-60"></div>
 
       {/* المحتوى */}
       <div className="relative grid grid-cols-1 md:grid-cols-12 w-full mx-auto items-center gap-4 px-6 ">
@@ -119,7 +119,7 @@ const ConsultationSection = () => {
 
               <button
                 type="submit"
-                className="bg-[#f7941d] text-white hover:bg-[#f7951de3] p-3 rounded w-full font-bold"
+                className="bg-[#5B2C8E] text-white hover:bg-[#4A1E75] p-3 rounded w-full font-bold"
               >
                 {t("form.submit")}
               </button>

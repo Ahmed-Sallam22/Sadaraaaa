@@ -1,5 +1,8 @@
 :root {
-  --brand-orange: #f7941d;
-  --brand-blue: #002d72;
-  --brand-black: #111111;
+  /* RAP Brand Colors */
+  --brand-primary: #5B2C8E;        /* Primary Purple */
+  --brand-secondary: #57C4B3;      /* Secondary Teal */
+  --brand-background: #F8F9FA;     /* Light Gray Background */
+  --brand-text: #2E2E2E;           /* Dark Gray Text */
+  --brand-hover: #4A1E75;          /* Deep Purple for Hover */
 }

@@ -60,8 +60,8 @@ const BlogDetails = () => {
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
         <div className="flex flex-col items-center space-y-4">
-          <div className="w-12 h-12 border-4 border-[#002d72] border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-[#002d72] font-semibold text-lg">
+          <div className="w-12 h-12 border-4 border-[#5B2C8E] border-t-transparent rounded-full animate-spin"></div>
+          <p className="text-[#5B2C8E] font-semibold text-lg">
             جاري التحميل...
           </p>
         </div>
@@ -72,14 +72,14 @@ const BlogDetails = () => {
     return <div className="text-center py-20">لم يتم العثور على المقال</div>;
 
   return (
-    <section className="py-16 bg-[#f6f9fb]">
+    <section className="py-16 bg-[#F8F9FA]">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* ✅ العمود الجانبي */}
         <aside className="order-1 lg:order-2 flex-col  ">
           <div className="  p-6 bg-gray-200 rounded-xl shadow-sm space-y-8">
             {/* المدونة */}
             <div>
-              <h3 className="text-xl font-bold text-[#002d72] mb-4">
+              <h3 className="text-xl font-bold text-[#5B2C8E] mb-4">
                 {isArabic ? "المدونة" : "Blog"}
               </h3>
               <div className="space-y-4">
@@ -90,7 +90,7 @@ const BlogDetails = () => {
                     className="flex items-center justify-between gap-4 hover:opacity-80"
                   >
                     <h4
-                      className="text-sm text-[#002d72] font-semibold line-clamp-2"
+                      className="text-sm text-[#5B2C8E] font-semibold line-clamp-2"
                       dangerouslySetInnerHTML={{
                         __html: recentPost.title.rendered,
                       }}
@@ -111,7 +111,7 @@ const BlogDetails = () => {
             </div>
           </div>
           <div className="sticky top-2 p-6 mt-10 bg-gray-200 rounded-xl shadow-sm space-y-6">
-            <h3 className="text-2xl font-bold text-[#002d72] text-center">
+            <h3 className="text-2xl font-bold text-[#5B2C8E] text-center">
               {isArabic ? "تواصل معنا" : "Contact Us"}
             </h3>
 
@@ -123,7 +123,7 @@ const BlogDetails = () => {
                   value={formData.firstName}
                   placeholder={t("form.firstName")}
                   onChange={handleChange}
-                  className="p-3 rounded bg-white text-black w-full"
+                  className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                   required
                 />
                 <input
@@ -132,7 +132,7 @@ const BlogDetails = () => {
                   value={formData.lastName}
                   placeholder={t("form.lastName")}
                   onChange={handleChange}
-                  className="p-3 rounded bg-white text-black w-full"
+                  className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                   required
                 />
               </div>
@@ -143,7 +143,7 @@ const BlogDetails = () => {
                 value={formData.email}
                 placeholder={t("form.email")}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                 required
               />
 
@@ -154,9 +154,9 @@ const BlogDetails = () => {
                   onChange={handlePhoneChange}
                   inputProps={{ name: "phone", required: true }}
                   containerClass="!w-full"
-                  inputClass="!w-full !h-10 !p-3 !text-black !rounded-md"
+                  inputClass="!w-full !h-10 !p-3 !text-[#2E2E2E] !rounded-md"
                   buttonClass="!bg-white"
-                  dropdownClass="!text-black"
+                  dropdownClass="!text-[#2E2E2E]"
                   placeholder={t("form.phone")}
                 />
               </div>
@@ -166,14 +166,14 @@ const BlogDetails = () => {
                 value={formData.message}
                 placeholder={t("form.message")}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                 rows={4}
                 required
               ></textarea>
 
               <button
                 type="submit"
-                className="bg-[#f7941d] hover:bg-[#f7951de8] text-white p-3 rounded w-full font-bold"
+                className="bg-[#5B2C8E] hover:bg-[#4A1E75] text-white p-3 rounded w-full font-bold"
               >
                 {isArabic ? "التقديم" : "Submit"}
               </button>
@@ -184,18 +184,18 @@ const BlogDetails = () => {
         {/* ✅ تفاصيل المقال */}
         <main className="order-2 lg:order-1 lg:col-span-2">
           {/* العنوان */}
-          <div className="text-sm text-[#002d72] mb-4">
+          <div className="text-sm text-[#5B2C8E] mb-4">
             <Link to="/" className="hover:underline text-sm">
               {t("home")}
             </Link>
             <span className="mx-1">«</span>
             <span
-              className="text-gray-600"
+              className="text-[#2E2E2E]"
               dangerouslySetInnerHTML={{ __html: post.title.rendered }}
             />
           </div>
           <h1
-            className="text-3xl font-bold text-[#002d72] mb-2"
+            className="text-3xl font-bold text-[#5B2C8E] mb-2"
             dangerouslySetInnerHTML={{ __html: post.title.rendered }}
           />
 
@@ -222,14 +222,14 @@ const BlogDetails = () => {
 
           {/* نص المقال */}
           <article
-            className="prose prose-lg text-xl max-w-none text-gray-700"
+            className="prose prose-lg text-xl max-w-none text-[#2E2E2E]"
             dangerouslySetInnerHTML={{ __html: post.content.rendered }}
           />
         </main>
       </div>
       {/* 🔗 Related Posts */}
       <div className="max-w-7xl mx-auto mt-16">
-        <h2 className="text-2xl font-bold text-center text-[#002d72] mb-8">
+        <h2 className="text-2xl font-bold text-center text-[#5B2C8E] mb-8">
           {isArabic ? "مواضيع ذات صلة" : "Related Articles"}
         </h2>
 
@@ -255,7 +255,7 @@ const BlogDetails = () => {
                 )}
                 <div className="p-4">
                   <h3
-                    className="text-[#002d72] font-semibold text-lg mb-2 line-clamp-2"
+                    className="text-[#5B2C8E] font-semibold text-lg mb-2 line-clamp-2"
                     dangerouslySetInnerHTML={{
                       __html: relatedPost.title.rendered,
                     }}

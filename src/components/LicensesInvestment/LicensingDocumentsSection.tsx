@@ -18,7 +18,7 @@ const LicensingDocumentsSection = () => {
       {/* النصوص */}
       <div className="flex flex-col justify-center">
         <h2
-          className={`text-3xl md:text-4xl font-bold text-[#003462] mb-6 leading-relaxed ${
+          className={`text-3xl md:text-4xl font-bold text-[#5B2C8E] mb-6 leading-relaxed ${
             isArabic ? "text-center lg:text-right" : "text-center lg:text-left"
           }`}
         >
@@ -26,7 +26,7 @@ const LicensingDocumentsSection = () => {
         </h2>
 
         <p
-          className={`text-[#003462] text-lg mb-6 ${
+          className={`text-[#2E2E2E] text-lg mb-6 ${
             isArabic ? "text-center lg:text-right" : "text-center lg:text-left"
           }`}
         >
@@ -34,7 +34,7 @@ const LicensingDocumentsSection = () => {
         </p>
 
         <ul
-          className={`text-[#003462] text-lg list-disc ${
+          className={`text-[#2E2E2E] text-lg list-disc ${
             isArabic ? "pr-6" : "pl-6"
           } mb-6 ${isArabic ? "text-right" : "text-left"}`}
         >

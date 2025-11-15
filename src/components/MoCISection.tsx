@@ -10,13 +10,13 @@ export default function MoCISection() {
       <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-start gap-10">
         {/* ✅ Content */}
         <div className="w-full lg:w-1/2 text-right">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#00246E] mb-4 leading-relaxed">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#5B2C8E] mb-4 leading-relaxed">
             {t("moci.title")}
           </h2>
-          <p className="text-gray-700 mb-4 leading-loose">
+          <p className="text-[#2E2E2E] mb-4 leading-loose">
             {t("moci.description1")}
           </p>
-          <p className="text-gray-700 mb-4 leading-loose">
+          <p className="text-[#2E2E2E] mb-4 leading-loose">
             {t("moci.description2")}
           </p>
           <Link to={'/Comment'} className="text-blue-700 font-bold underline cursor-pointer hover:text-blue-900">
@@ -25,7 +25,7 @@ export default function MoCISection() {
 
           {/* ✅ خدمات وزارة التجارة */}
           <div className="mt-6 text-sm text-[#555] leading-loose">
-            <h3 className="text-lg font-semibold text-[#00246E] mb-3">
+            <h3 className="text-lg font-semibold text-[#5B2C8E] mb-3">
               {t("moci.servicesTitle")}
             </h3>
             <ul className="list-disc pr-5 space-y-2">

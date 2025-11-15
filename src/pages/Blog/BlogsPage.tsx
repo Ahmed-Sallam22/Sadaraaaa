@@ -72,21 +72,21 @@ const BlogsPage = () => {
   };
 
   return (
-    <section className="bg-[#f6f9fb] py-10">
+    <section className="bg-[#F8F9FA] py-10">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* 🔍 Sidebar */}
 
         {/* 📄 Main Articles */}
         <main className="lg:col-span-8">
-          <h1 className="text-3xl font-bold text-[#002d72] mb-6">
+          <h1 className="text-3xl font-bold text-[#5B2C8E] mb-6">
             {isArabic ? "المقالات" : "Articles"}
           </h1>
 
           {/* 🌀 Loading */}
           {loading && (
             <div className="flex flex-col items-center justify-center space-y-4 py-10">
-              <div className="w-12 h-12 border-4 border-[#002d72] border-t-transparent rounded-full animate-spin"></div>
-              <p className="text-[#002d72] font-semibold text-lg">
+              <div className="w-12 h-12 border-4 border-[#5B2C8E] border-t-transparent rounded-full animate-spin"></div>
+              <p className="text-[#5B2C8E] font-semibold text-lg">
                 {isArabic ? "جاري التحميل..." : "Loading..."}
               </p>
             </div>
@@ -124,7 +124,7 @@ const BlogsPage = () => {
                 )}
                 <div className="p-4">
                   <h3
-                    className="text-[#002d72] font-bold text-lg mb-2 line-clamp-2"
+                    className="text-[#5B2C8E] font-bold text-lg mb-2 line-clamp-2"
                     dangerouslySetInnerHTML={{
                       __html: post.title.rendered,
                     }}
@@ -154,8 +154,8 @@ const BlogsPage = () => {
                   onClick={() => setCurrentPage(index + 1)}
                   className={`px-4 py-2 rounded font-medium shadow text-sm ${
                     currentPage === index + 1
-                      ? "bg-[#002d72] text-white"
-                      : "bg-white text-[#002d72]"
+                      ? "bg-[#5B2C8E] text-white"
+                      : "bg-white text-[#5B2C8E]"
                   }`}
                 >
                   {index + 1}
@@ -167,7 +167,7 @@ const BlogsPage = () => {
         <aside className="lg:col-span-4 space-y-6">
           {/* Search Box */}
           <div className="flex items-center bg-white rounded overflow-hidden shadow">
-            <div className="bg-[#002d72] text-white p-3">
+            <div className="bg-[#5B2C8E] text-white p-3">
               <FaSearch />
             </div>
             <input
@@ -182,7 +182,7 @@ const BlogsPage = () => {
           <div className="  p-6 bg-gray-200 rounded-xl shadow-sm space-y-8">
             {/* المدونة */}
             <div>
-              <h3 className="text-xl font-bold text-[#002d72] mb-4">
+              <h3 className="text-xl font-bold text-[#5B2C8E] mb-4">
                 {isArabic ? "المدونة" : "Blog"}
               </h3>
               <div className="space-y-4">
@@ -193,7 +193,7 @@ const BlogsPage = () => {
                     className="flex items-center justify-between gap-4 hover:opacity-80"
                   >
                     <h4
-                      className="text-sm text-[#002d72] font-semibold line-clamp-2"
+                      className="text-sm text-[#5B2C8E] font-semibold line-clamp-2"
                       dangerouslySetInnerHTML={{
                         __html: recentPost.title.rendered,
                       }}
@@ -214,7 +214,7 @@ const BlogsPage = () => {
             </div>
           </div>
           <div className="sticky top-2 p-6 mt-10 bg-gray-200 rounded-xl shadow-sm space-y-6">
-            <h3 className="text-2xl font-bold text-[#002d72] text-center">
+            <h3 className="text-2xl font-bold text-[#5B2C8E] text-center">
               {isArabic ? "تواصل معنا" : "Contact Us"}
             </h3>
 
@@ -226,7 +226,7 @@ const BlogsPage = () => {
                   value={formData.firstName}
                   placeholder={t("form.firstName")}
                   onChange={handleChange}
-                  className="p-3 rounded bg-white text-black w-full"
+                  className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                   required
                 />
                 <input
@@ -235,7 +235,7 @@ const BlogsPage = () => {
                   value={formData.lastName}
                   placeholder={t("form.lastName")}
                   onChange={handleChange}
-                  className="p-3 rounded bg-white text-black w-full"
+                  className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                   required
                 />
               </div>
@@ -246,7 +246,7 @@ const BlogsPage = () => {
                 value={formData.email}
                 placeholder={t("form.email")}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                 required
               />
 
@@ -257,9 +257,9 @@ const BlogsPage = () => {
                   onChange={handlePhoneChange}
                   inputProps={{ name: "phone", required: true }}
                   containerClass="!w-full"
-                  inputClass="!w-full !h-10 !p-3 !text-black !rounded-md"
+                  inputClass="!w-full !h-10 !p-3 !text-[#2E2E2E] !rounded-md"
                   buttonClass="!bg-white"
-                  dropdownClass="!text-black"
+                  dropdownClass="!text-[#2E2E2E]"
                   placeholder={t("form.phone")}
                 />
               </div>
@@ -269,14 +269,14 @@ const BlogsPage = () => {
                 value={formData.message}
                 placeholder={t("form.message")}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-[#2E2E2E] w-full"
                 rows={4}
                 required
               ></textarea>
 
               <button
                 type="submit"
-                className="bg-[#f7941d] hover:bg-[#f7951de8] text-white p-3 rounded w-full font-bold"
+                className="bg-[#5B2C8E] hover:bg-[#4A1E75] text-white p-3 rounded w-full font-bold"
               >
                 {isArabic ? "التقديم" : "Submit"}
               </button>

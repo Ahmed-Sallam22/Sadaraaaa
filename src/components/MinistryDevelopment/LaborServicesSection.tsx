@@ -8,7 +8,7 @@ export default function LaborServicesSection() {
   return (
     <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#00246E] text-center mb-10">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#5B2C8E] text-center mb-10">
           {t("mol.sectionTitle", "خدمات وزارة العمل والتنمية الاجتماعية")}
         </h2>
 
@@ -16,7 +16,7 @@ export default function LaborServicesSection() {
           {services.map((item, index) => (
             <div
               key={index}
-              className="flex items-center gap-2  pb-2 text-[#00246E]"
+              className="flex items-center gap-2  pb-2 text-[#5B2C8E]"
             >
               <span className="text-red-500">❰</span>
               <span className="text-sm font-medium">{item}</span>

@@ -11,7 +11,7 @@ const Main = ({ scrollToForm }: { scrollToForm: () => void }) => {
       }}
     >
       {/* Overlay أحمر شفاف */}
-      <div className="absolute inset-0 bg-[#003462] opacity-60"></div>
+      <div className="absolute inset-0 bg-[#5B2C8E] opacity-60"></div>
 
       {/* Content فوق الطبقة */}
       <div className="relative mx-auto flex flex-col items-start justify-center px-6 text-center ">
@@ -23,14 +23,14 @@ const Main = ({ scrollToForm }: { scrollToForm: () => void }) => {
         </p>
         <button
           onClick={scrollToForm}
-          className="bg-[#f7941d] w-[20%] hover:bg-[#f7951de6] text-white font-bold py-3 px-8 rounded-full transition-all duration-300"
+          className="bg-[#5B2C8E] w-[20%] hover:bg-[#f7951de6] text-white font-bold py-3 px-8 rounded-full transition-all duration-300"
         >
           {t("establish.button")}
         </button>
       </div>
 
       {/* الخط الأحمر السفلي */}
-      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#f7941d]"></div>
+      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#5B2C8E]"></div>
     </section>
   );
 };

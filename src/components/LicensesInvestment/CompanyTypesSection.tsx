@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 
-const CompanyTypesSection = ({ scrollToForm }: { scrollToForm: () => void }) => {
+const CompanyTypesSection = ({
+  scrollToForm,
+}: {
+  scrollToForm: () => void;
+}) => {
   const { t } = useTranslation();
 
   const companyTypes = [
@@ -13,17 +17,17 @@ const CompanyTypesSection = ({ scrollToForm }: { scrollToForm: () => void }) => 
   ];
 
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-[#F8F9FA] py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* العنوان */}
         <h2
-          className={`text-3xl md:text-4xl font-bold text-[#003462] mb-6 text-center`}
+          className={`text-3xl md:text-4xl font-bold text-[#5B2C8E] mb-6 text-center`}
         >
           {t("companyTypes.title")}
         </h2>
 
         {/* الوصف */}
-        <p className={`text-[#003462] text-lg text-center mb-10`}>
+        <p className={`text-[#2E2E2E] text-lg text-center mb-10`}>
           {t("companyTypes.subtitle")}
         </p>
 
@@ -32,7 +36,7 @@ const CompanyTypesSection = ({ scrollToForm }: { scrollToForm: () => void }) => 
           {companyTypes.map((type, index) => (
             <div
               key={index}
-              className="bg-white text-center text-[#003462] font-semibold p-6 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition-all cursor-pointer"
+              className="bg-white text-center text-[#5B2C8E] font-semibold p-6 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition-all cursor-pointer"
             >
               {type}
             </div>
@@ -43,7 +47,7 @@ const CompanyTypesSection = ({ scrollToForm }: { scrollToForm: () => void }) => 
         <div className="flex justify-center">
           <button
             onClick={scrollToForm}
-            className="bg-[#f7941d]  text-white font-bold py-3 px-6 rounded-full transition-all"
+            className="bg-[#5B2C8E] hover:bg-[#4A1E75]  text-white font-bold py-3 px-6 rounded-full transition-all"
           >
             {t("companyTypes.button")}
           </button>

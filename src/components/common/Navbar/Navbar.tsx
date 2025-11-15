@@ -31,6 +31,7 @@ const Navbar = () => {
       submenu: [
         { label: t("establishCompany"), to: "/establish-company" },
         { label: t("licenseRenewal"), to: "/AccountingServices" },
+        { label: t("logisticsServices"), to: "/logistics-services" },
       ],
     },
     {
@@ -63,7 +64,7 @@ const Navbar = () => {
             <img
               src={Logo2}
               alt="Logo"
-              className="w-full h-22 object-contain"
+              className="w-full h-24  object-cover"
             />
           </Link>
 
@@ -80,7 +81,7 @@ const Navbar = () => {
                     {item.to ? (
                       <Link
                         to={item.to}
-                        className="flex items-center gap-1 cursor-pointer text-[#111111] hover:text-[#f7941d] transition"
+                        className="flex items-center gap-1 cursor-pointer text-[#2E2E2E] hover:text-[#5B2C8E] transition"
                       >
                         {item.label}
                         <svg
@@ -98,7 +99,7 @@ const Navbar = () => {
                         </svg>
                       </Link>
                     ) : (
-                      <span className="flex items-center gap-1 cursor-default text-[#111111]">
+                      <span className="flex items-center gap-1 cursor-default text-[#2E2E2E]">
                         {item.label}
                         <svg
                           className="w-4 h-4 mt-1"
@@ -118,7 +119,7 @@ const Navbar = () => {
 
                     {/* Dropdown Menu */}
                     <div
-                      className={`absolute top-[98%] right-0 flex-col bg-white text-[#111111] text-center rounded-md py-2 min-w-[300px] z-30 shadow-lg ${
+                      className={`absolute top-[98%] right-0 flex-col bg-white text-[#2E2E2E] text-center rounded-md py-2 min-w-[300px] z-30 shadow-lg ${
                         openDropdown === index ? "flex" : "hidden"
                       }`}
                       onMouseEnter={() => setOpenDropdown(index)}
@@ -128,7 +129,7 @@ const Navbar = () => {
                         <Link
                           key={subIndex}
                           to={subItem.to}
-                          className="block px-4 py-2 hover:text-[#f7941d] transition"
+                          className="block px-4 py-2 hover:text-[#5B2C8E] transition"
                         >
                           {subItem.label}
                         </Link>
@@ -139,8 +140,8 @@ const Navbar = () => {
                   <NavLink
                     to={item.to}
                     className={({ isActive }) =>
-                      `hover:text-[#f7941d] transition ${
-                        isActive ? "font-bold text-[#f7941d]" : "text-[#111111]"
+                      `hover:text-[#5B2C8E] transition ${
+                        isActive ? "font-bold text-[#5B2C8E]" : "text-[#2E2E2E]"
                       }`
                     }
                   >
@@ -156,7 +157,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center gap-4">
             <button
               onClick={toggleMenu}
-              className="text-[#00246E]"
+              className="text-[#5B2C8E]"
               aria-label="Toggle Menu"
             >
               {menuOpen ? (
@@ -166,7 +167,7 @@ const Navbar = () => {
                   height="26"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#00246E"
+                  stroke="#5B2C8E"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -181,7 +182,7 @@ const Navbar = () => {
                   height="26"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#00246E"
+                  stroke="#5B2C8E"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -201,7 +202,7 @@ const Navbar = () => {
               <div key={index} className="flex flex-col">
                 {item.submenu ? (
                   <details className="group">
-                    <summary className="flex justify-between items-center py-2 cursor-pointer text-[#00246E] hover:text-[#00B0FB] text-lg ">
+                    <summary className="flex justify-between items-center py-2 cursor-pointer text-[#5B2C8E] hover:text-[#57C4B3] text-lg ">
                       {item.label}
                       <svg
                         className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300"
@@ -225,8 +226,8 @@ const Navbar = () => {
                           to={subItem.to}
                           onClick={() => setMenuOpen(false)} // Close menu when link clicked
                           className={({ isActive }) =>
-                            `flex items-center gap-2 px-2 py-2  rounded-md transition hover:bg-[#EBF9FF] hover:text-[#00B0FB] ${
-                              isActive ? "text-[#00B0FB]" : "text-[#00246E]"
+                            `flex items-center gap-2 px-2 py-2  rounded-md transition hover:bg-[#F8F9FA] hover:text-[#57C4B3] ${
+                              isActive ? "text-[#57C4B3]" : "text-[#5B2C8E]"
                             }`
                           }
                         >
@@ -240,8 +241,8 @@ const Navbar = () => {
                     to={item.to}
                     onClick={() => setMenuOpen(false)}
                     className={({ isActive }) =>
-                      `block py-2 text-lg transition hover:text-[#00B0FB] ${
-                        isActive ? "font-bold text-[#00B0FB]" : "text-[#00246E]"
+                      `block py-2 text-lg transition hover:text-[#57C4B3] ${
+                        isActive ? "font-bold text-[#57C4B3]" : "text-[#5B2C8E]"
                       }`
                     }
                   >

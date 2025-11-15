@@ -21,7 +21,6 @@ const services = [
   "Construction and mechanical works",
 ];
 
-
 const servicesAr = [
   "إصدار عنوان صندوق بريد",
   "صياغة عقد التأسيس",
@@ -49,14 +48,14 @@ const ConciergeServices = () => {
   const data = isArabic ? servicesAr : services;
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-[#F8F9FA]">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-2xl md:text-4xl font-bold text-[#002d72] mb-4">
+        <h2 className="text-2xl md:text-4xl font-bold text-[#5B2C8E] mb-4">
           {isArabic
             ? "خدمات التعقيب في المملكة العربية السعودية"
             : "Concierge Services in Saudi Arabia"}
         </h2>
-        <p className="text-gray-600 max-w-3xl mx-auto mb-12">
+        <p className="text-[#2E2E2E] max-w-3xl mx-auto mb-12">
           {isArabic
             ? "خبرائنا على استعداد لتقديم خدمات تعقيب شاملة ومهنية مع جميع الجهات والمصالح الحكومية، هيئة الاستثمار، الأمانات، البلديات، وجهات استخراج الرخص ومكاتب العمل."
             : "Our experts are ready to provide comprehensive concierge services with professionalism, dealing with all government and municipal entities, the Investment Authority, municipalities, licensing agencies, and labor offices."}
@@ -66,15 +65,15 @@ const ConciergeServices = () => {
           {data.map((service, index) => (
             <div key={index} className="flex items-center gap-2">
               {isArabic ? (
-                <BiChevronLeft className="text-[#f7941d]" size={20} />
+                <BiChevronLeft className="text-[#57C4B3]" size={20} />
               ) : (
-                <BiChevronRight className="text-[#f7941d]" size={20} />
+                <BiChevronRight className="text-[#57C4B3]" size={20} />
               )}
               {/* Icon */}
               {/* <FaRegCheckCircle className="text-green-600" size={20} /> */}
 
               {/* Service Text */}
-              <p className="text-[#001033] font-medium border-b border-gray-200 pb-2 inline-block">
+              <p className="text-[#2E2E2E] font-medium border-b border-gray-200 pb-2 inline-block">
                 {service}
               </p>
             </div>

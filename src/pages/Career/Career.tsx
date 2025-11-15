@@ -8,7 +8,7 @@ const paragraphs = t("joinTeam.paragraphs", {
 }) as string[];
 
   return (
-    <section className="bg-white py-16 px-6 md:px-20 text-right text-[#002856]">
+    <section className="bg-white py-16 px-6 md:px-20 text-right text-[#5B2C8E]">
       <div className="flex flex-col md:flex-row items-center justify-between gap-12">
         {/* المحتوى */}
         <div className="w-full md:w-1/2">
@@ -17,12 +17,12 @@ const paragraphs = t("joinTeam.paragraphs", {
           </h2>
 
           {paragraphs.map((para: string, idx: number) => (
-            <p key={idx} className="text-lg text-gray-800 leading-loose mb-4">
+            <p key={idx} className="text-lg text-[#2E2E2E] leading-loose mb-4">
               {para}
             </p>
           ))}
 
-          <p className="text-2xl font-bold text-[#002856] mt-6">
+          <p className="text-2xl font-bold text-[#5B2C8E] mt-6">
             {t("joinTeam.cta")}
           </p>
         </div>

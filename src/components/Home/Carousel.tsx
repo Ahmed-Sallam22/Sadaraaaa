@@ -12,6 +12,11 @@ import logo7 from "../../assets/7-removebg-preview.png";
 import logo8 from "../../assets/8-removebg-preview.png";
 import logo9 from "../../assets/9-removebg-preview.png";
 import logo10 from "../../assets/10-removebg-preview.png";
+import logo11 from "../../assets/11-removebg-preview.png";
+import logo12 from "../../assets/12-removebg-preview.png";
+import logo13 from "../../assets/13-removebg-preview.png";
+import logo14 from "../../assets/14-removebg-preview.png";
+import logo15 from "../../assets/15-removebg-preview.png";
 
 const images = [
   logo,
@@ -24,6 +29,11 @@ const images = [
   logo8,
   logo9,
   logo10,
+  logo11,
+  logo12,
+  logo13,
+  logo14,
+  logo15,
 ];
 
 const Carousel = () => {
@@ -83,7 +93,7 @@ const Carousel = () => {
 
   return (
     <section className="py-12 max-w-7xl mx-auto bg-white text-center relative">
-      <h2 className="text-2xl md:text-4xl font-bold mb-8 text-[#002d72]">
+      <h2 className="text-2xl md:text-4xl font-bold mb-8 text-[#5B2C8E]">
         {isArabic ? "شركاؤنا " : "Our Partners"}
       </h2>
 

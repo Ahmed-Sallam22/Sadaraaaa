@@ -8,21 +8,21 @@ import {
   FaYoutube,
   FaTiktok,
 } from "react-icons/fa6";
-import Logo2 from "../../../assets/ChatGPT_Image_Apr_9__2025__06_33_25_PM-removebg-preview.png";
+import Logo2 from "../../../assets/Sadara_Business_Services_page-0001__1_-removebg-preview.png";
 
 const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="w-full bg-[#003462] text-white">
+    <footer className="w-full bg-[#5B2C8E] text-white">
       <div className="px-5 mx-auto  py-12 grid grid-cols-1 max-w-7xl sm:grid-cols-2 md:grid-cols-12 gap-10 ">
         {/* Company Info */}
-        <div className="flex flex-col items-start gap-5 col-span-4">
+        <div className="flex flex-col items-center gap-5 col-span-4">
           <Link to="/">
             <img
               src={Logo2}
               alt="Logo"
-              className="w-full h-20 object-contain"
+              className="w-full h-40 bg-amber-50 mx-auto object-contain"
             />
           </Link>
 
@@ -147,7 +147,7 @@ const Footer = () => {
       <div className="border-t border-white/10 w-[90%] mx-auto my-4"></div>
 
       {/* Bottom Text */}
-      <div className="w-full bg-[#003462] text-[#FFFFFF8F] text-sm py-4">
+      <div className="w-full bg-[#5B2C8E] text-[#FFFFFF8F] text-sm py-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center  items-center gap-4 px-4 text-center md:text-start">
           {/* Left Side: Copyright */}
           <p>

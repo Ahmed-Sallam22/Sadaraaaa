@@ -12,14 +12,14 @@ const BlogSection = () => {
   return (
     <section className="py-16 ">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#002d72] mb-10">
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#5B2C8E] mb-10">
           {isArabic ? "أحدث المدونات" : "Latest Blogs"}
         </h2>
 
         {loading && (
           <div className="flex flex-col items-center space-y-4">
-            <div className="w-12 h-12 border-4 border-[#002d72] border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-[#002d72] font-semibold text-lg">
+            <div className="w-12 h-12 border-4 border-[#5B2C8E] border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-[#5B2C8E] font-semibold text-lg">
               جاري التحميل...
             </p>
           </div>
@@ -55,7 +55,7 @@ const BlogSection = () => {
               {/* محتوى المقال */}
               <div className="p-4">
                 <h3
-                  className="text-[#002d72] font-semibold text-lg mb-2 line-clamp-2"
+                  className="text-[#5B2C8E] font-semibold text-lg mb-2 line-clamp-2"
                   dangerouslySetInnerHTML={{ __html: post.title.rendered }}
                 />
                 <p className="text-gray-500 text-sm">
@@ -77,7 +77,7 @@ const BlogSection = () => {
         <div className="text-center mt-10">
           <Link
             to={"/blog"}
-            className="bg-[#f7941d] hover:bg-[#f7951de8] text-white font-semibold py-2 px-6 rounded-full"
+            className="bg-[#5B2C8E] hover:bg-[#4A1E75] text-white font-semibold py-2 px-6 rounded-full"
           >
             {isArabic ? "آخر الأخبار" : "Latest News"}
           </Link>
