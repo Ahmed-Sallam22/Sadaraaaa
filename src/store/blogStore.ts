@@ -175,23 +175,25 @@ export const useBlogStore = create<BlogState>((set, get) => ({
         const uaeRegex5 =
           /([\s?|،-]?)(www.businesslink.sa)([\s?|،-]?)/gi;
    const removeLinksButKeepText = (html: string): string => {
-          // Keep email links: <a href="mailto:...">...</a>
-          // Keep phone links: <a href="tel:...">...</a>
-          // Remove all other links but keep their text content
           return html
-            // Remove opening <a> tags that are NOT email or phone links
-            .replace(/<a\s+(?![^>]*href=["'](mailto:|tel:))[^>]*>/gi, '')
-            // Remove closing </a> tags
-            .replace(/<\/a>/gi, '')
             // Remove broken HTML attributes like " data-end="3046">
-            .replace(/"\s*data-[a-z]+="[\d]+"\s*>/gi, '')
-            // Remove any other broken attributes like "> or data-*
-            .replace(/"\s*data-[a-z-]+\s*=\s*"[^"]*"[^>]*>/gi, '')
+            // .replace(/"\s*data-[a-z]+="[\d]+"\s*>/gi, '')
+            // .replace(/"\s*data-[a-z-]+\s*=\s*"[^"]*"[^>]*>/gi, '')
             // Remove standalone broken tags
-            .replace(/[">]{2,}/gi, '');
+            // .replace(/[">]{2,}/gi, '')
+            // Remove opening <a> tags that are NOT email or phone links (keep the text inside)
+            // .replace(/<a\s+(?![^>]*href=["'](mailto:|tel:))[^>]*>/gi, '')
+            // Remove closing </a> tags (but text remains)
+            .replace(/<\/a>/gi, '')
+            // Remove all other HTML tags except <p>, <br>, and email/tel links
+            .replace(/href=["']/gi, '')
+            // Clean <p> tags to remove any attributes, keep only <p> and </p>
+            // .replace(/<p[^>]*>/gi, '<p>')
+            // Convert <br> tags to proper format
+            // .replace(/<br[^>]*>/gi, '<br />');
    };
 
-   const priceRegex1 = /(?:\d+|[٠-٩]+)[\s,،]*(?:ألف|الف|آلاف|الاف|مليون|ملايين)[\s,،]*(?:ريال|ريالاً|ريالا|دولار|درهم|سعودي)/gi;
+        const priceRegex1 = /(?:\d+|[٠-٩]+)[\s,،]*(?:ألف|الf|آلاف|الاف|مليون|ملايين)[\s,،]*(?:ريال|ريالاً|ريالا|دولار|درهم|سعودي)/gi;
         const priceRegex2 = /(?:\d+|[٠-٩]+)[\s,،]*(?:ريال|ريالاً|ريالا|دولار|درهم|سعودي)/gi;
         
         // Remove "X آلاف ريال" or "X الف ريال" patterns - يزيل: ٥ آلاف ريال، ٧ آلاف ريال
@@ -199,24 +201,34 @@ export const useBlogStore = create<BlogState>((set, get) => ({
         
         // Remove price ranges: "بين X إلى Y", "من X إلى Y" - يزيل: بين ٣٠ إلى سعودي
         const priceRangeRegex = /(?:بين|من)[\s,،]+(?:\d+|[٠-٩]+)[\s,،]*(?:إلى|الى|-)[\s,،]*(?:\d+|[٠-٩]+)?[\s,،]*(?:ألف|الف|آلاف|الاف|مليون|ملايين)?[\s,،]*(?:ريال|ريالاً|ريالا|دولار|درهم|سعودي)?/gi;
-   
-                updatedContent = removeLinksButKeepText(originalContent);
+        
+        // Remove bank guarantee mentions - يزيل: ضمان بنكي، ضمانات بنكية
+        // const bankGuaranteeRegex = /(?:ضمان بنكي|ضمانات بنكية|ضمان مالي|كفالة بنكية|ضمانات مالية|رسوم ضمان)/;
 
         updatedTitle = updatedTitle
           .replace(/بيزنس لينك/gi, "رابتشر للاعمال")
           .replace(uaeRegex, " السعودية ");
 
-        updatedContent = originalContent
+        // First, remove all links except email and phone
+        updatedContent = removeLinksButKeepText(originalContent);
+        
+        updatedContent = updatedContent
           .replace(/بيزنس لينك/gi, "رابتشر للاعمال")
           .replace(uaeRegex, " السعودية ")
-          .replace(uaeRegex2, " info@rapbuss.com.com ")
-          .replace(uaeRegex3, " 97143215227 ")
-          .replace(uaeRegex4, " https://rapbuss.com.com ")
-          .replace(uaeRegex5, " https://rapbuss.com.com ")     
+          .replace(uaeRegex2, " info@rapbuss.com ")
+          .replace(uaeRegex3, " 966920035150 ")
+          .replace(uaeRegex4, " https://rapbuss.com ")
+          .replace(uaeRegex5, " https://rapbuss.com ")
+          // .replace(bankGuaranteeRegex, " ") // Remove bank guarantee mentions
           .replace(priceRangeRegex, " ") // Remove price ranges
           .replace(arabicThousandsRegex, " ") // Remove Arabic thousands patterns
           .replace(priceRegex1, " ") // Remove X ألف ريال patterns
           .replace(priceRegex2, " ") // Remove X ريال patterns
+          // Clean up multiple spaces and punctuation
+          // .replace(/\s{2,}/g, " ")
+          // .replace(/\s+([،,.])/g, "$1")
+          // .replace(/([،,.])\s*([،,.])/g, "$1")
+          // .replace(/^\s*[.،,]\s*/gm, ""/) // Remove lines starting with punctuation
       
         return {
           ...post,
